@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - "src/**"
+      - "public/**"
+      - "next.config.ts"
+      - "package.json"
 
   workflow_dispatch:
     inputs:
@@ -49,7 +52,8 @@ jobs:
       - name: 🔨 Build
         run: bun run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /next
+          NEXT_PUBLIC_BASE_PATH: /web
+          SITE_URL: https://spicehubvn.github.io
 
       # ── 5. Verify build output ──
       - name: 📊 Verify build output
