@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "SpiceHubVN - Thế Giới Gia Vị Việt Nam",
+    "description": "Khám phá thế giới gia vị phong phú của Việt Nam. Cung cấp thông tin chi tiết về các loại gia vị và công thức nấu ăn đặc sắc."
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "features": "Tính năng",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "badge": "🌶️ Khám phá gia vị Việt Nam",
+    "title": "Thế Giới Gia Vị",
+    "titleHighlight": "Việt Nam",
+    "subtitle": "Khám phá kho tàng gia vị phong phú và đa dạng của Việt Nam. Từ hương thơm ngọt ngào của quế đến vị cay nồng của ớt, mỗi lọ gia vị là một câu chuyện văn hóa ẩm thực.",
+    "cta": "Khám phá ngay",
+    "ctaSecondary": "Tìm hiểu thêm"
+  },
+  "features": {
+    "sectionLabel": "Tính năng",
+    "title": "Tại sao chọn SpiceHubVN?",
+    "subtitle": "Chúng tôi mang đến trải nghiệm khám phá gia vị toàn diện nhất cho người yêu ẩm thực Việt.",
+    "items": [
+      {
+        "icon": "📚",
+        "title": "Bách khoa gia vị",
+        "description": "Thông tin chi tiết về hàng trăm loại gia vị Việt Nam từ nguồn gốc, công dụng đến cách sử dụng."
+      },
+      {
+        "icon": "🍜",
+        "title": "Công thức nấu ăn",
+        "description": "Hàng nghìn công thức nấu ăn truyền thống và hiện đại với hướng dẫn chi tiết từng bước."
+      },
+      {
+        "icon": "🌿",
+        "title": "Sức khỏe & Dinh dưỡng",
+        "description": "Tìm hiểu lợi ích sức khỏe của từng loại gia vị và cách kết hợp gia vị hợp lý."
+      },
+      {
+        "icon": "🗺️",
+        "title": "Bản đồ gia vị",
+        "description": "Khám phá bản đồ phân bố gia vị theo vùng miền, từ Bắc vào Nam."
+      },
+      {
+        "icon": "👨‍🍳",
+        "title": "Cộng đồng đầu bếp",
+        "description": "Kết nối với cộng đồng yêu bếp, chia sẻ kinh nghiệm và bí quyết nấu ăn."
+      },
+      {
+        "icon": "🛒",
+        "title": "Mua sắm tiện lợi",
+        "description": "Tìm kiếm và mua gia vị chất lượng từ các nhà cung cấp uy tín khắp Việt Nam."
+      }
+    ]
+  },
+  "about": {
+    "sectionLabel": "Về chúng tôi",
+    "title": "Câu chuyện SpiceHubVN",
+    "description": "SpiceHubVN ra đời từ niềm đam mê với ẩm thực Việt Nam và mong muốn bảo tồn, phát triển văn hóa gia vị truyền thống. Chúng tôi tin rằng mỗi bữa ăn ngon đều bắt đầu từ những gia vị tuyệt vời.",
+    "stats": [
+      { "value": "500+", "label": "Loại gia vị" },
+      { "value": "2,000+", "label": "Công thức" },
+      { "value": "50K+", "label": "Người dùng" },
+      { "value": "63", "label": "Tỉnh thành" }
+    ]
+  },
+  "cta": {
+    "title": "Sẵn sàng khám phá?",
+    "subtitle": "Tham gia cùng hàng nghìn người yêu ẩm thực Việt Nam trên hành trình khám phá gia vị.",
+    "button": "Bắt đầu miễn phí",
+    "note": "Không cần thẻ tín dụng • Miễn phí mãi mãi"
+  },
+  "footer": {
+    "description": "Nền tảng khám phá gia vị và công thức nấu ăn hàng đầu Việt Nam.",
+    "quickLinks": "Liên kết nhanh",
+    "legal": "Pháp lý",
+    "contact": "Liên hệ",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "copyright": "© 2026 SpiceHubVN. Bảo lưu mọi quyền."
+  },
+  "contact": {
+    "sectionLabel": "Liên hệ",
+    "title": "Liên hệ với chúng tôi",
+    "subtitle": "Bạn có câu hỏi hoặc muốn hợp tác? Hãy để lại thông tin, chúng tôi sẽ phản hồi trong vòng 24 giờ.",
+    "phone": "Điện thoại",
+    "formTitle": "Gửi tin nhắn",
+    "nameLabel": "Họ và tên",
+    "namePlaceholder": "Nguyễn Văn A",
+    "emailPlaceholder": "email@example.com",
+    "messageLabel": "Tin nhắn",
+    "messagePlaceholder": "Nhập nội dung tin nhắn...",
+    "send": "Gửi tin nhắn"
+  },
+  "chat": {
+    "online": "Trực tuyến",
+    "greeting": "Xin chào! 👋 Chào mừng đến SpiceHubVN. Chúng tôi có thể giúp gì cho bạn?",
+    "quickActions": "Liên hệ nhanh",
+    "call": "Gọi điện",
+    "form": "Gửi biểu mẫu"
+  },
+  "privacy": {
+    "title": "Chính sách bảo mật",
+    "lastUpdated": "Cập nhật lần cuối: 05/03/2026",
+    "sections": [
+      {
+        "title": "1. Thu thập thông tin",
+        "content": "Chúng tôi thu thập thông tin bạn cung cấp trực tiếp khi sử dụng dịch vụ của SpiceHubVN, bao gồm: tên, địa chỉ email, và các thông tin liên quan đến tài khoản. Chúng tôi cũng tự động thu thập một số thông tin kỹ thuật như địa chỉ IP, loại trình duyệt, và thời gian truy cập."
+      },
+      {
+        "title": "2. Sử dụng thông tin",
+        "content": "Thông tin thu thập được sử dụng để: cung cấp và cải thiện dịch vụ, cá nhân hóa trải nghiệm người dùng, gửi thông báo về cập nhật và ưu đãi (nếu bạn đăng ký), phân tích xu hướng sử dụng để nâng cao chất lượng nội dung."
+      },
+      {
+        "title": "3. Bảo vệ thông tin",
+        "content": "Chúng tôi áp dụng các biện pháp bảo mật thích hợp để bảo vệ thông tin cá nhân của bạn khỏi truy cập, sử dụng hoặc tiết lộ trái phép. Tuy nhiên, không có phương pháp truyền dữ liệu qua Internet nào là an toàn tuyệt đối."
+      },
+      {
+        "title": "4. Chia sẻ thông tin",
+        "content": "Chúng tôi không bán, trao đổi hoặc chuyển giao thông tin cá nhân của bạn cho bên thứ ba, trừ khi được sự đồng ý của bạn hoặc theo yêu cầu của pháp luật."
+      },
+      {
+        "title": "5. Cookie",
+        "content": "Website sử dụng cookie để cải thiện trải nghiệm duyệt web. Bạn có thể chọn từ chối cookie thông qua cài đặt trình duyệt, tuy nhiên điều này có thể ảnh hưởng đến một số chức năng của website."
+      },
+      {
+        "title": "6. Liên hệ",
+        "content": "Nếu bạn có câu hỏi về chính sách bảo mật, vui lòng liên hệ chúng tôi qua email: privacy@spicehubvn.com"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Điều khoản sử dụng",
+    "lastUpdated": "Cập nhật lần cuối: 05/03/2026",
+    "sections": [
+      {
+        "title": "1. Điều khoản chung",
+        "content": "Bằng việc truy cập và sử dụng SpiceHubVN.com, bạn đồng ý tuân thủ các điều khoản và điều kiện được nêu trong tài liệu này. Nếu bạn không đồng ý với bất kỳ phần nào, vui lòng không sử dụng dịch vụ của chúng tôi."
+      },
+      {
+        "title": "2. Quyền sở hữu trí tuệ",
+        "content": "Tất cả nội dung trên SpiceHubVN bao gồm văn bản, hình ảnh, đồ họa, logo và phần mềm đều thuộc sở hữu của SpiceHubVN hoặc các đối tác được cấp phép. Nghiêm cấm sao chép, phân phối hoặc sử dụng nội dung mà không có sự đồng ý bằng văn bản."
+      },
+      {
+        "title": "3. Tài khoản người dùng",
+        "content": "Bạn chịu trách nhiệm bảo mật thông tin đăng nhập và mọi hoạt động diễn ra dưới tài khoản của bạn. Vui lòng thông báo ngay cho chúng tôi nếu phát hiện bất kỳ truy cập trái phép nào."
+      },
+      {
+        "title": "4. Nội dung người dùng",
+        "content": "Khi đăng tải nội dung lên SpiceHubVN (công thức, đánh giá, bình luận), bạn cấp cho chúng tôi quyền sử dụng, hiển thị và phân phối nội dung đó trên nền tảng. Bạn phải đảm bảo nội dung không vi phạm quyền của bên thứ ba."
+      },
+      {
+        "title": "5. Giới hạn trách nhiệm",
+        "content": "SpiceHubVN cung cấp thông tin gia vị và công thức nấu ăn mang tính tham khảo. Chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc sử dụng thông tin trên website, bao gồm các vấn đề về sức khỏe hoặc dị ứng thực phẩm."
+      },
+      {
+        "title": "6. Thay đổi điều khoản",
+        "content": "Chúng tôi có quyền cập nhật các điều khoản này bất kỳ lúc nào. Các thay đổi sẽ có hiệu lực ngay khi được đăng tải. Việc bạn tiếp tục sử dụng dịch vụ sau khi thay đổi đồng nghĩa với việc chấp nhận các điều khoản mới."
+      }
+    ]
+  }
+}

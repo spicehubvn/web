@@ -1,0 +1,31 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.rulers": [
+        80
+    ],
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": false,
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "chat.agent.maxRequests": 500000,
+    "chat.tools.terminal.autoApprove": {
+        "uv": true,
+        "ForEach-Object": true,
+        "bun": true,
+        "/^python -c \"from src\\.scraper\\.models import DrugInfo; from src\\.scraper\\.markdown_formatter import drug_to_markdown; from src\\.scraper\\.thuocbietduoc import parse_drug_detail; print\\('All imports OK'\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -m py_compile src/scraper/models\\.py; python -m py_compile src/scraper/thuocbietduoc\\.py; python -m py_compile src/scraper/markdown_formatter\\.py; echo \"All syntax OK\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "[python]": {}
+}

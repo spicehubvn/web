@@ -1,0 +1,86 @@
+name: 🚀 Deploy → GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+
+  workflow_dispatch:
+    inputs:
+      force_rebuild:
+        description: "Force full rebuild (ignore cache)"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # ── 1. Checkout ──
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      # ── 2. Setup Bun ──
+      - name: 🍞 Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      # ── 3. Install dependencies ──
+      - name: 📦 Install dependencies
+        run: bun install
+
+      # ── 4. Build ──
+      - name: 🔨 Build
+        run: bun run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /next
+
+      # ── 5. Verify build output ──
+      - name: 📊 Verify build output
+        run: |
+          echo "📊 Build output structure:"
+          TOTAL_PAGES=$(find out -name "*.html" | wc -l)
+          echo "📄 Total HTML pages: $TOTAL_PAGES"
+          echo "📦 Total size: $(du -sh out | cut -f1)"
+          echo ""
+          echo "📁 Top-level contents:"
+          ls -la out/
+          echo ""
+          echo "📁 Locale directories:"
+          for dir in out/*/; do
+            if [ -d "$dir" ]; then
+              name=$(basename "$dir")
+              PAGE_COUNT=$(find "$dir" -name "*.html" | wc -l)
+              echo "  📁 $name/ ($PAGE_COUNT pages)"
+            fi
+          done
+
+      # ── 6. Setup & Upload ──
+      - name: ⚙️ Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: 📤 Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      # ── 7. Deploy ──
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

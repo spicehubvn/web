@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "SpiceHubVN - The World of Vietnamese Spices",
+    "description": "Discover the rich world of Vietnamese spices. Detailed information about various spices and unique cooking recipes."
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "🌶️ Discover Vietnamese Spices",
+    "title": "The World of",
+    "titleHighlight": "Vietnamese Spices",
+    "subtitle": "Explore the rich and diverse treasure of Vietnamese spices. From the sweet aroma of cinnamon to the fiery heat of chili, each jar of spice tells a story of culinary culture.",
+    "cta": "Explore Now",
+    "ctaSecondary": "Learn More"
+  },
+  "features": {
+    "sectionLabel": "Features",
+    "title": "Why Choose SpiceHubVN?",
+    "subtitle": "We bring the most comprehensive spice discovery experience for Vietnamese food lovers.",
+    "items": [
+      {
+        "icon": "📚",
+        "title": "Spice Encyclopedia",
+        "description": "Detailed information about hundreds of Vietnamese spices including origins, uses, and preparation methods."
+      },
+      {
+        "icon": "🍜",
+        "title": "Cooking Recipes",
+        "description": "Thousands of traditional and modern recipes with detailed step-by-step instructions."
+      },
+      {
+        "icon": "🌿",
+        "title": "Health & Nutrition",
+        "description": "Learn about health benefits of each spice and how to combine them effectively."
+      },
+      {
+        "icon": "🗺️",
+        "title": "Spice Map",
+        "description": "Explore the distribution map of spices by region, from North to South."
+      },
+      {
+        "icon": "👨‍🍳",
+        "title": "Chef Community",
+        "description": "Connect with the cooking community, share experiences and secret tips."
+      },
+      {
+        "icon": "🛒",
+        "title": "Easy Shopping",
+        "description": "Find and purchase quality spices from trusted suppliers across Vietnam."
+      }
+    ]
+  },
+  "about": {
+    "sectionLabel": "About Us",
+    "title": "The SpiceHubVN Story",
+    "description": "SpiceHubVN was born from a passion for Vietnamese cuisine and the desire to preserve and develop traditional spice culture. We believe every great meal starts with wonderful spices.",
+    "stats": [
+      { "value": "500+", "label": "Spice Types" },
+      { "value": "2,000+", "label": "Recipes" },
+      { "value": "50K+", "label": "Users" },
+      { "value": "63", "label": "Provinces" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Explore?",
+    "subtitle": "Join thousands of Vietnamese food lovers on the spice discovery journey.",
+    "button": "Get Started Free",
+    "note": "No credit card required • Free forever"
+  },
+  "footer": {
+    "description": "Vietnam's leading spice discovery and cooking recipe platform.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 SpiceHubVN. All rights reserved."
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Get in Touch",
+    "subtitle": "Have a question or want to collaborate? Leave your details and we'll get back to you within 24 hours.",
+    "phone": "Phone",
+    "formTitle": "Send a Message",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "John Doe",
+    "emailPlaceholder": "email@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Type your message...",
+    "send": "Send Message"
+  },
+  "chat": {
+    "online": "Online",
+    "greeting": "Hello! 👋 Welcome to SpiceHubVN. How can we help you?",
+    "quickActions": "Quick Contact",
+    "call": "Call us",
+    "form": "Send form"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 5, 2026",
+    "sections": [
+      {
+        "title": "1. Information Collection",
+        "content": "We collect information you provide directly when using SpiceHubVN services, including: name, email address, and account-related information. We also automatically collect certain technical information such as IP address, browser type, and access time."
+      },
+      {
+        "title": "2. Use of Information",
+        "content": "Collected information is used to: provide and improve services, personalize user experience, send notifications about updates and offers (if subscribed), analyze usage trends to improve content quality."
+      },
+      {
+        "title": "3. Information Protection",
+        "content": "We implement appropriate security measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of data transmission over the Internet is absolutely secure."
+      },
+      {
+        "title": "4. Information Sharing",
+        "content": "We do not sell, trade, or transfer your personal information to third parties, except with your consent or as required by law."
+      },
+      {
+        "title": "5. Cookies",
+        "content": "The website uses cookies to improve the browsing experience. You can choose to decline cookies through your browser settings, however this may affect some website functionalities."
+      },
+      {
+        "title": "6. Contact",
+        "content": "If you have questions about the privacy policy, please contact us via email: privacy@spicehubvn.com"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 5, 2026",
+    "sections": [
+      {
+        "title": "1. General Terms",
+        "content": "By accessing and using SpiceHubVN.com, you agree to comply with the terms and conditions outlined in this document. If you disagree with any part, please do not use our services."
+      },
+      {
+        "title": "2. Intellectual Property",
+        "content": "All content on SpiceHubVN including text, images, graphics, logos, and software is owned by SpiceHubVN or licensed partners. Copying, distributing, or using content without written consent is prohibited."
+      },
+      {
+        "title": "3. User Accounts",
+        "content": "You are responsible for maintaining the security of your login information and all activities under your account. Please notify us immediately if you discover any unauthorized access."
+      },
+      {
+        "title": "4. User Content",
+        "content": "When posting content on SpiceHubVN (recipes, reviews, comments), you grant us the right to use, display, and distribute that content on the platform. You must ensure your content does not infringe third-party rights."
+      },
+      {
+        "title": "5. Limitation of Liability",
+        "content": "SpiceHubVN provides spice information and cooking recipes for reference purposes. We are not responsible for any damages arising from the use of information on the website, including health issues or food allergies."
+      },
+      {
+        "title": "6. Changes to Terms",
+        "content": "We reserve the right to update these terms at any time. Changes will take effect immediately upon posting. Your continued use of the service after changes constitutes acceptance of the new terms."
+      }
+    ]
+  }
+}
