@@ -48,6 +48,8 @@ export default async function LocaleLayout({
           `}
         </Script>
         <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/favicon.svg`} type="image/svg+xml" />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/favicon.png`} type="image/png" sizes="192x192" />
+        <link rel="apple-touch-icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/favicon.png`} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

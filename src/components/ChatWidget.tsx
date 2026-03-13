@@ -65,7 +65,7 @@ export default function ChatWidget({ dict }: { dict: Dictionary }) {
                 Email
               </a>
               <a
-                href="tel:+84945614800"
+                href="tel:+84977043137"
                 className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-herb-300 hover:bg-herb-50"
               >
                 <svg className="h-3.5 w-3.5 text-herb-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

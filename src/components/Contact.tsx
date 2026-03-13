@@ -43,8 +43,8 @@ export default function Contact({ dict }: { dict: Dictionary }) {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900">{dict.contact.phone}</p>
-                  <a href="tel:+84945614800" className="text-sm text-herb-600 hover:underline">
-                    (+84) 0945 614 800
+                  <a href="tel:+84977043137" className="text-sm text-herb-600 hover:underline">
+                    (+84) 0977 043 137
                   </a>
                 </div>
               </div>
